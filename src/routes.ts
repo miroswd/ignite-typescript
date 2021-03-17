@@ -12,5 +12,5 @@ export function createCourse(request:Request, response: Response){
     name:'ReactJs',
     educator: 'Diego'
   })
-  return response.status(200).json({msg:'Funcionou'})
+  return response.status(200).json({msg:'Bom dia'})
 }
